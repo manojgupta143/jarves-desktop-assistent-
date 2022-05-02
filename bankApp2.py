@@ -10,7 +10,7 @@ class Account:
         self.min_balance=min_balance
     def deposit(self,amount):
         self.balance =self.balance=amount
-        print("YOur Current Balance Is ",self.balance)
+        print("Your Current Balance Is ",self.balance)
     def withdrow(self,amount):
         if self.balance -amount>=self.min_balance:
             self.balance-amount
